@@ -1,0 +1,149 @@
+.productdetails{
+    background-color: rgb(255, 255, 255);
+    width: 100vw;
+    max-width: 100%;
+    display: flex;
+    
+    box-sizing: border-box;
+    
+    padding: 6vmax;
+    
+}
+
+.carouselimage{
+    width: 100vw;
+   
+
+}
+
+.productdetails > div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1vmax;
+    box-sizing: border-box;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.productdetails > div:last-child{
+    align-items: flex-start;
+}
+
+
+.detailsblock1 > h2{
+   color: rgb(54, 54, 54);
+   font: 600 1.6vmax "Roboto";
+}
+
+.detailsblock1 > p{
+   color: rgb(54, 54, 54 , 0.582);
+   font: 600 0.6vmax cursive;
+}
+
+.detailsblock2{
+     display: flex;
+     justify-content: flex-start;
+     align-items: center;
+     border-top: 1px solid rgba(0, 0, 0, 0.285);
+     border-bottom: 1px solid rgba(0, 0, 0, 0.285);
+     width: 70%;
+     padding: 1vmax;
+}
+
+.detailsblock2 > span{
+    color: rgba(54, 54, 54,0.582);
+    font: 600 0.6vmax cursive;
+
+}
+
+.detailsblock3{
+    width: 70%;
+}
+
+.detailsblock3 > h1{
+    color: rgba(17,17,17,8.795);
+    font: 400 1.8vmax "Franklin Gothic Medium";
+    margin: 1vmax 0;
+}
+
+.detailsblock31{
+    display: flex;
+    align-items: center;
+}
+
+.detailsblock311 > button{
+    border: none;
+    background-color: rgba(0, 0,0, 0.616);
+    cursor: pointer;
+    color: white;
+    padding: 5vmax;
+    transition: all 0.5s;
+}
+
+.detailsblock311 >button :hover{
+    color: rgba(0, 0,0, 0.767);
+
+}
+ 
+.detailsblock311>input {
+    border: none;
+    padding: 0.5vmax;
+    width: 1vmax;
+    text-align: center;
+    outline: none;
+    font: 400 0.8vmax "Roboto";
+    background-color: rgba(0, 0,0, 0.74);
+} 
+
+.reviewheading{
+    color: black;
+    text-align: center;
+    font: 500 1.6vmax "Roboto";
+    border-bottom: 1px solid black;
+    padding: 1vmax;
+    width: 20vmax;
+    margin: auto;
+    margin-bottom: 4vmax;
+
+}
+
+.reviews{
+    display: flex;
+    overflow: auto;
+}
+.reviewcard{
+    flex: none;
+    border: 0 0 5px black;
+    display: flex;
+    width: 30vmax;
+    align-items: center;
+    flex-direction: column;
+    margin: 1vmax;
+    padding: 3vmax;
+
+}
+
+.reviewcard > img{
+    width: 5vmax;
+
+}
+
+.reviewcard >p{
+    color: black;
+    font: 500 0.8vmax "Roboto";
+
+}
+
+.reviewcard > span{
+    color: black;
+    font: 600 0.8vmax cursive;
+} 
+
+.noreviews{
+    font: 400 0.8vmax "Gill Sans";
+    color: black;
+    text-align: center;
+}
+
